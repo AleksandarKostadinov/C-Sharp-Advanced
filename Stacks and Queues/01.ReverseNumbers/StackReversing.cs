@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01.ReverseNumbers
+﻿namespace _01.ReverseNumbers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     class StackReversing
     {
         public static void Main()

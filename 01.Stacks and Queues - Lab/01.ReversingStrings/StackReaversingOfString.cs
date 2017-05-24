@@ -1,0 +1,28 @@
+﻿namespace _01.ReversingStrings
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    public class StackReaversingOfString
+    {
+        public static void Main()
+        {
+            var input = Console.ReadLine();
+
+            var stack = new Stack<char>();
+
+            foreach (var ch in input)
+            {
+                stack.Push(ch);
+            }
+
+            while (stack.Count > 0)
+            {
+                Console.Write(stack.Pop());
+            }
+
+            Console.WriteLine();
+        }
+    }
+}
