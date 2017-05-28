@@ -6,7 +6,7 @@
 
     public class DayOfNoDying
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var n = int.Parse(Console.ReadLine());
 
@@ -25,7 +25,7 @@
                 int maxDays = 0;
                 var currentPlant = plants[i];
 
-                while (proximityStack.Count > 0 && plants[proximityStack.Peek()] > currentPlant)
+                while (proximityStack.Count > 0 && plants[proximityStack.Peek()] >= currentPlant)
                 {
                     maxDays = Math.Max(maxDays, days[proximityStack.Pop()]);
                 }

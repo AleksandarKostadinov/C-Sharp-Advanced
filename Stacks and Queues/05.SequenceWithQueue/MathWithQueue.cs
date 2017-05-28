@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Numerics;
 
-    public class Program
+    public class MathWithQueue
     {
         public static void Main()
         {

@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    class StackReversing
+    public class StackReversing
     {
         public static void Main()
         {
