@@ -86,7 +86,7 @@ namespace _12.StringMatrixRotation
             {
                 for (int j = maxStrLength - 1; j >= 0; j--)
                 {
-                    for (int i = matrix.Count - 1; i >= 0; i--)
+                    for (int i = 0; i < matrix.Count; i++)
                     {
                         try
                         {
